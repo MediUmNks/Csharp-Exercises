@@ -64,3 +64,35 @@
 //int[] numbers = [1, 5, 8, 9, 12, 1578, 3648];
 //string num = string.Join(", ",numbers);
 //Console.WriteLine(num);
+
+
+Console.WriteLine("How many number from Fibonacci Numbers do you want?");
+int res = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("===================================================");
+if (res <= 0)
+{
+    Console.WriteLine("Pleaes Enter a Positive Number");
+}
+else
+{
+    int[] FibonacciNumber = new int[res];
+
+    if (res >= 1)
+    {
+        FibonacciNumber[0] = 1;
+    }
+    if (res >= 2)
+    {
+        FibonacciNumber[1] = 1;
+    }
+
+    for (int i = 2; i < res; i++)
+    {
+        FibonacciNumber[i] = FibonacciNumber[i - 1] + FibonacciNumber[i - 2];
+    }
+    for (int i = FibonacciNumber.Length - 1; i >= 0; i--)
+    {
+        Console.WriteLine(FibonacciNumber[i]);
+    }
+
+}
