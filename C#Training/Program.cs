@@ -66,33 +66,98 @@
 //Console.WriteLine(num);
 
 
-Console.WriteLine("How many number from Fibonacci Numbers do you want?");
-int res = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("===================================================");
-if (res <= 0)
-{
-    Console.WriteLine("Pleaes Enter a Positive Number");
-}
-else
-{
-    int[] FibonacciNumber = new int[res];
+//Console.WriteLine("How many number from Fibonacci Numbers do you want?");
+//int res = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("===================================================");
+//if (res <= 0)
+//{
+//    Console.WriteLine("Pleaes Enter a Positive Number");
+//}
+//else
+//{
+//    int[] FibonacciNumber = new int[res];
 
-    if (res >= 1)
-    {
-        FibonacciNumber[0] = 1;
-    }
-    if (res >= 2)
-    {
-        FibonacciNumber[1] = 1;
-    }
+//    if (res >= 1)
+//    {
+//        FibonacciNumber[0] = 1;
+//    }
+//    if (res >= 2)
+//    {
+//        FibonacciNumber[1] = 1;
+//    }
 
-    for (int i = 2; i < res; i++)
-    {
-        FibonacciNumber[i] = FibonacciNumber[i - 1] + FibonacciNumber[i - 2];
-    }
-    for (int i = FibonacciNumber.Length - 1; i >= 0; i--)
-    {
-        Console.WriteLine(FibonacciNumber[i]);
-    }
+//    for (int i = 2; i < res; i++)
+//    {
+//        FibonacciNumber[i] = FibonacciNumber[i - 1] + FibonacciNumber[i - 2];
+//    }
+//    for (int i = FibonacciNumber.Length - 1; i >= 0; i--)
+//    {
+//        Console.WriteLine(FibonacciNumber[i]);
+//    }
 
-}
+//}
+
+//string name = "Mohammad Mahdi ";
+//string lastname = "Nakhei";
+//string fullname = string.Concat(name, lastname);
+//char show = name[3];
+//int show2 = lastname.IndexOf('k');
+//string sub = name.Substring(9, 5);
+//Console.WriteLine(sub);
+//Console.ReadKey();
+
+
+
+//methodes
+//<access specifire> <return type> Methode Name(<Parameters>)
+//{
+//Methode Body and return statement
+//}
+
+
+
+
+//Practic
+
+
+        //public class Program
+        //{
+        //    public static void Main(String[] args)
+        //    {
+        //        List<double> weeklytemp = GetWeekleyTemperature();
+        //        Console.WriteLine($"The avrage of this week is {CalculateAvarageOfTemp(weeklytemp)}");
+        //    }
+
+        //    public static List<double> GetWeekleyTemperature()
+        //    {
+        //        List<double> temperature = new List<double>();
+        //        string[] days = new string[7] { "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
+        //        for (int i = 0; i < days.Length; i++)
+        //        {
+        //            Console.WriteLine($"Please enter the temperatures of {days[i]}   (Celsius)");
+        //            if (double.TryParse(Console.ReadLine(), out double temp))
+        //            {
+        //                temperature.Add(temp);
+        //            }
+        //            else
+        //            {
+        //                Console.WriteLine("Please enter a number");
+        //            }
+        //        }
+        //        return temperature;
+
+        //    }
+        //    public static double CalculateAvarageOfTemp(List<double> temp)
+        //    {
+        //        double sum = 0;
+        //        foreach(double t in temp)
+        //        {
+        //            sum += t;
+        //        }
+        //        if(temp.Count== 0)
+        //        {
+        //            return 0;
+        //        }
+        //        return sum / temp.Count;
+        //    }
+        //}
