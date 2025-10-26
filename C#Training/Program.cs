@@ -120,44 +120,106 @@
 //Practic
 
 
+//public class Program
+//{
+//    public static void Main(String[] args)
+//    {
+//        List<double> weeklytemp = GetWeekleyTemperature();
+//        Console.WriteLine($"The avrage of this week is {CalculateAvarageOfTemp(weeklytemp)}");
+//    }
+
+//    public static List<double> GetWeekleyTemperature()
+//    {
+//        List<double> temperature = new List<double>();
+//        string[] days = new string[7] { "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
+//        for (int i = 0; i < days.Length; i++)
+//        {
+//            Console.WriteLine($"Please enter the temperatures of {days[i]}   (Celsius)");
+//            if (double.TryParse(Console.ReadLine(), out double temp))
+//            {
+//                temperature.Add(temp);
+//            }
+//            else
+//            {
+//                Console.WriteLine("Please enter a number");
+//            }
+//        }
+//        return temperature;
+
+//    }
+//    public static double CalculateAvarageOfTemp(List<double> temp)
+//    {
+//        double sum = 0;
+//        foreach(double t in temp)
+//        {
+//            sum += t;
+//        }
+//        if(temp.Count== 0)
+//        {
+//            return 0;
+//        }
+//        return sum / temp.Count;
+//    }
+//}
+
+
+
+//OOP Practice
+
+using System.Diagnostics;
+
         //public class Program
         //{
-        //    public static void Main(String[] args)
+        //    public static void Main(string[] args)
         //    {
-        //        List<double> weeklytemp = GetWeekleyTemperature();
-        //        Console.WriteLine($"The avrage of this week is {CalculateAvarageOfTemp(weeklytemp)}");
+        //        //PDFBook pdf = new PDFBook();
+        //        //pdf.Title = "Animal Farm";
+        //        //pdf.Author = "Gorge Orvel";
+        //        //pdf.Price = 10.65;
+
+        //        Book book1 = new Book("The Plague", "Albert Camus");
+        //        book1.PrintBookInfo();
+
+        //        PDFBook pdf = new PDFBook("Animal Farm", "Gorge Orvel", 16.48);
+        //        pdf.PrintBookInfo();
+        //    }
+        //    public class Book
+        //    {
+        //        public Book(string title, string author)
+        //        {
+        //            Title = title;
+        //            Author = author;
+        //        }
+
+        //        protected string Title { get; set; }
+        //        protected string Author { get; set; }
+
+        //        public virtual void PrintBookInfo()
+        //        {
+        //            Console.WriteLine($"{Title} {Author}");
+        //        }
         //    }
 
-        //    public static List<double> GetWeekleyTemperature()
+        //    public class PDFBook : Book
         //    {
-        //        List<double> temperature = new List<double>();
-        //        string[] days = new string[7] { "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
-        //        for (int i = 0; i < days.Length; i++)
+        //        public PDFBook(string title, string author, double price) : base(title, author)
         //        {
-        //            Console.WriteLine($"Please enter the temperatures of {days[i]}   (Celsius)");
-        //            if (double.TryParse(Console.ReadLine(), out double temp))
-        //            {
-        //                temperature.Add(temp);
-        //            }
-        //            else
-        //            {
-        //                Console.WriteLine("Please enter a number");
-        //            }
+        //            Title = title;
+        //            Author = author;
+        //            Price = price;
         //        }
-        //        return temperature;
+        //        public double Price { get; set; }
 
-        //    }
-        //    public static double CalculateAvarageOfTemp(List<double> temp)
-        //    {
-        //        double sum = 0;
-        //        foreach(double t in temp)
+        //        //Polymorphism(OverLoading)
+        //        public void PrintBookInfo(double price)
         //        {
-        //            sum += t;
+        //            Console.WriteLine($"{Title} {Author} {price} $");
         //        }
-        //        if(temp.Count== 0)
+
+        //        //Polymorphism(OverRiding)
+        //        public override void PrintBookInfo()
         //        {
-        //            return 0;
+        //            Console.WriteLine($"{Title} {Price}");
         //        }
-        //        return sum / temp.Count;
         //    }
         //}
