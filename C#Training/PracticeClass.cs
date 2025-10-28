@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -177,6 +178,71 @@ namespace C_Training
         //        {
         //            Console.WriteLine($"{ProName} {Price} {StockQuantity}");
         //            Console.ReadKey();
+        //        }
+        //    }
+        //}
+
+
+
+
+
+        //Grade Analyzer
+
+        //public class Program
+        //{
+        //    static void Main(string[] args)
+        //    {
+        //        Console.WriteLine("How many student do you want to insert???");
+        //        int Stcount = Convert.ToInt32(Console.ReadLine());
+        //        List<Student> students = new List<Student>();
+        //        for (int i = 0; i < Stcount; i++)
+        //        {
+        //            Console.WriteLine("What is the StudentsID");
+        //            int stid = Convert.ToInt32(Console.ReadLine());
+
+        //            Console.WriteLine("What is the StudentName");
+        //            string stname = Convert.ToString(Console.ReadLine());
+
+        //            Console.WriteLine("What is the StudentGrade");
+        //            double stgrade = Convert.ToDouble(Console.ReadLine());
+
+        //            Student st1 = new Student(stid, stname, stgrade);
+        //            students.Add(st1);
+        //        }
+        //        Console.Write($"The avarageGrade of This Students is:{AvarageGardes(students)}");
+        //        Console.ReadKey();
+        //    }
+
+        //    public static double AvarageGardes(List<Student> stlist)
+        //    {
+        //        double avg = 0;
+        //        double res = 0;
+        //        foreach (Student st in stlist)
+        //        {
+        //            avg += st.Grade;
+        //            res = avg / stlist.Count;
+        //        }
+        //        return res;
+        //    }
+
+
+
+        //    public class Student
+        //    {
+        //        public Student(int id, string name, double grade)
+        //        {
+        //            Id = id;
+        //            StName = name;
+        //            Grade = grade;
+        //        }
+
+        //        public int Id { get; set; }
+        //        public string? StName { get; set; }
+        //        public double Grade { get; set; }
+
+        //        public void StudentInfo()
+        //        {
+        //            Console.WriteLine($"ID: {Id,-5} | Name: {StName,-15}| Grade: {Grade:F2}");
         //        }
         //    }
         //}
