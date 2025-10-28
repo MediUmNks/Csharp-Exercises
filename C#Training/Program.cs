@@ -166,60 +166,130 @@
 
 //OOP Practice
 
-using System.Diagnostics;
+//using System.Diagnostics;
 
-        //public class Program
-        //{
-        //    public static void Main(string[] args)
-        //    {
-        //        //PDFBook pdf = new PDFBook();
-        //        //pdf.Title = "Animal Farm";
-        //        //pdf.Author = "Gorge Orvel";
-        //        //pdf.Price = 10.65;
+//public class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        //PDFBook pdf = new PDFBook();
+//        //pdf.Title = "Animal Farm";
+//        //pdf.Author = "Gorge Orvel";
+//        //pdf.Price = 10.65;
 
-        //        Book book1 = new Book("The Plague", "Albert Camus");
-        //        book1.PrintBookInfo();
+//        Book book1 = new Book("The Plague", "Albert Camus");
+//        book1.PrintBookInfo();
 
-        //        PDFBook pdf = new PDFBook("Animal Farm", "Gorge Orvel", 16.48);
-        //        pdf.PrintBookInfo();
-        //    }
-        //    public class Book
-        //    {
-        //        public Book(string title, string author)
-        //        {
-        //            Title = title;
-        //            Author = author;
-        //        }
+//        PDFBook pdf = new PDFBook("Animal Farm", "Gorge Orvel", 16.48);
+//        pdf.PrintBookInfo();
+//    }
+//    public class Book
+//    {
+//        public Book(string title, string author)
+//        {
+//            Title = title;
+//            Author = author;
+//        }
 
-        //        protected string Title { get; set; }
-        //        protected string Author { get; set; }
+//        protected string Title { get; set; }
+//        protected string Author { get; set; }
 
-        //        public virtual void PrintBookInfo()
-        //        {
-        //            Console.WriteLine($"{Title} {Author}");
-        //        }
-        //    }
+//        public virtual void PrintBookInfo()
+//        {
+//            Console.WriteLine($"{Title} {Author}");
+//        }
+//    }
 
-        //    public class PDFBook : Book
-        //    {
-        //        public PDFBook(string title, string author, double price) : base(title, author)
-        //        {
-        //            Title = title;
-        //            Author = author;
-        //            Price = price;
-        //        }
-        //        public double Price { get; set; }
+//    public class PDFBook : Book
+//    {
+//        public PDFBook(string title, string author, double price) : base(title, author)
+//        {
+//            Title = title;
+//            Author = author;
+//            Price = price;
+//        }
+//        public double Price { get; set; }
 
-        //        //Polymorphism(OverLoading)
-        //        public void PrintBookInfo(double price)
-        //        {
-        //            Console.WriteLine($"{Title} {Author} {price} $");
-        //        }
+//        //Polymorphism(OverLoading)
+//        public void PrintBookInfo(double price)
+//        {
+//            Console.WriteLine($"{Title} {Author} {price} $");
+//        }
 
-        //        //Polymorphism(OverRiding)
-        //        public override void PrintBookInfo()
-        //        {
-        //            Console.WriteLine($"{Title} {Price}");
-        //        }
-        //    }
-        //}
+//        //Polymorphism(OverRiding)
+//        public override void PrintBookInfo()
+//        {
+//            Console.WriteLine($"{Title} {Price}");
+//        }
+//    }
+//}
+
+
+
+
+
+//Practice(Product Manager)
+
+    //using System.Collections.Generic;
+    //using System.Security.Cryptography.X509Certificates;
+    //using static Program;
+
+    //public class Program
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        string[] ProductName = new string[] { "Keybord", "Mouse", "Laptop" };
+    //        List<Product> Inventory = InitializeInventory(ProductName);
+    //    }
+
+
+    //    public static List<Product> InitializeInventory(string[] Proarray)
+    //    {
+    //        List<Product> invertorylist = new List<Product>();
+    //        foreach (string p in Proarray)
+    //        {
+    //            Product pro = new Product(p, 1200000, 84);
+    //            invertorylist.Add(pro);
+    //        }
+    //        return invertorylist;
+    //    }
+
+
+    //    public static void GenerateReport(List<Product> inv)
+    //    {
+    //        double total = 0;
+    //        Console.WriteLine("Details of all products!");
+    //        foreach (Product pro in inv)
+    //        {
+    //            pro.DispalyDetails();
+    //        }
+
+    //        //CalculateTotalprice
+    //        for (int i = 0; i < inv.Count; i++)
+    //        {
+    //            total += inv[1].Price * inv[i].StockQuantity;
+    //        }
+    //        Console.WriteLine("Total Inventory value");
+    //        Console.WriteLine($"{total:N0} Toman");
+    //    }
+
+    //    public class Product
+    //    {
+    //        public Product(string proname, double price, int stackquantity)
+    //        {
+    //            ProName = proname;
+    //            Price = price;
+    //            StockQuantity = stackquantity;
+    //        }
+    //        public string ProName { get; set; }
+    //        public double Price { get; set; }
+    //        public int StockQuantity { get; set; }
+
+    //        public void DispalyDetails()
+    //        {
+    //            Console.WriteLine($"{ProName} {Price} {StockQuantity}");
+    //            Console.ReadKey();
+    //        }
+    //    }
+    //}
+
