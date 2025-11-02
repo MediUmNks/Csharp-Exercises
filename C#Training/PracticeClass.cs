@@ -253,169 +253,169 @@ namespace C_Training
 
         //Shelter Program
 
-        public class Program
-        {
-            public static void Main(string[] args)
-            {
-                ShelterAnimal shelter = new ShelterAnimal();
-                bool runnig = true;
+                //public class Program
+                //{
+                //    public static void Main(string[] args)
+                //    {
+                //        ShelterAnimal shelter = new ShelterAnimal();
+                //        bool runnig = true;
 
-                while (runnig)
-                {
-                    Console.WriteLine("\n =========================");
-                    Console.WriteLine("Menu of Shelter");
-                    Console.WriteLine("============================");
+                //        while (runnig)
+                //        {
+                //            Console.WriteLine("\n =========================");
+                //            Console.WriteLine("Menu of Shelter");
+                //            Console.WriteLine("============================");
 
-                    Console.WriteLine("Add animal 1: ");
-                    Console.WriteLine("Show avalaible animal 2: ");
-                    Console.WriteLine("Adopt Animal 3: ");
-                    Console.WriteLine("Exist 4: ");
-                    Console.WriteLine("Enter 1-4");
+                //            Console.WriteLine("Add animal 1: ");
+                //            Console.WriteLine("Show avalaible animal 2: ");
+                //            Console.WriteLine("Adopt Animal 3: ");
+                //            Console.WriteLine("Exist 4: ");
+                //            Console.WriteLine("Enter 1-4");
 
-                    string choice = Console.ReadLine()!;
+                //            string choice = Console.ReadLine()!;
 
-                    switch (choice)
-                    {
-                        case "1":
-                            shelter.AddAnimal();
-                            break;
-                        case "3":
-                            shelter.FindAnimal();
-                            break;
-                        case "4":
-                            runnig = false;
-                            Console.WriteLine("Existing program!!! GoodBye");
-                            break;
-                        default:
-                            Console.WriteLine($"\n Invalid Choice" +
-                                $" please enter number between 1-4");
-                            break;
-                    }
-                    Console.ReadKey();
-                }
-            }
+                //            switch (choice)
+                //            {
+                //                case "1":
+                //                    shelter.AddAnimal();
+                //                    break;
+                //                case "3":
+                //                    shelter.FindAnimal();
+                //                    break;
+                //                case "4":
+                //                    runnig = false;
+                //                    Console.WriteLine("Existing program!!! GoodBye");
+                //                    break;
+                //                default:
+                //                    Console.WriteLine($"\n Invalid Choice" +
+                //                        $" please enter number between 1-4");
+                //                    break;
+                //            }
+                //            Console.ReadKey();
+                //        }
+                //    }
 
-            public class ShelterAnimal
-            {
+                //    public class ShelterAnimal
+                //    {
 
-                public class Animal
-                {
-                    public Animal(string animalname, int animalage)
-                    {
-                        Name = animalname;
-                        Age = animalage;
+                //        public class Animal
+                //        {
+                //            public Animal(string animalname, int animalage)
+                //            {
+                //                Name = animalname;
+                //                Age = animalage;
 
-                    }
-                    public string Name { get; set; }
-                    public int Age { get; set; }
-                    public bool IsAdopted { get; set; } = false;
+                //            }
+                //            public string Name { get; set; }
+                //            public int Age { get; set; }
+                //            public bool IsAdopted { get; set; } = false;
 
-                    public virtual void DisplayAnimalInfo()
-                    {
-                        Console.WriteLine($"----Animal: {Name,-10} | Age: {Age,-3} | Status: {IsAdopted}");
-                    }
+                //            public virtual void DisplayAnimalInfo()
+                //            {
+                //                Console.WriteLine($"----Animal: {Name,-10} | Age: {Age,-3} | Status: {IsAdopted}");
+                //            }
 
-                    public void Adopt()
-                    {
-                        IsAdopted = true;
-                    }
-                }
+                //            public void Adopt()
+                //            {
+                //                IsAdopted = true;
+                //            }
+                //        }
 
-                public class Cat : Animal
-                {
-                    public string FurColor { get; set; }
-                    public Cat(string animalname, int animalage, string furColor) : base(animalname, animalage)
-                    {
-                        FurColor = furColor;
-                    }
+                //        public class Cat : Animal
+                //        {
+                //            public string FurColor { get; set; }
+                //            public Cat(string animalname, int animalage, string furColor) : base(animalname, animalage)
+                //            {
+                //                FurColor = furColor;
+                //            }
 
-                    public override void DisplayAnimalInfo()
-                    {
-                        base.DisplayAnimalInfo();
-                        Console.WriteLine($"{Name} {Age} {IsAdopted} {FurColor}");
-                    }
-                }
+                //            public override void DisplayAnimalInfo()
+                //            {
+                //                base.DisplayAnimalInfo();
+                //                Console.WriteLine($"{Name} {Age} {IsAdopted} {FurColor}");
+                //            }
+                //        }
 
-                public class Dog : Animal
-                {
-                    public string Breed { get; set; }
-                    public Dog(string animalname, int animalage, string breed) : base(animalname, animalage)
-                    {
-                        Breed = breed;
-                    }
+                //        public class Dog : Animal
+                //        {
+                //            public string Breed { get; set; }
+                //            public Dog(string animalname, int animalage, string breed) : base(animalname, animalage)
+                //            {
+                //                Breed = breed;
+                //            }
 
-                    public override void DisplayAnimalInfo()
-                    {
-                        Console.WriteLine($"{Name} {Age} {IsAdopted} {Breed}");
-                    }
-                }
-                private List<Animal> animals = new List<Animal>();
+                //            public override void DisplayAnimalInfo()
+                //            {
+                //                Console.WriteLine($"{Name} {Age} {IsAdopted} {Breed}");
+                //            }
+                //        }
+                //        private List<Animal> animals = new List<Animal>();
 
-                public void AddAnimal()
-                {
-                    Console.WriteLine($"Its a Cat Or a Dog (C/D)??");
-                    string type = Console.ReadLine()!.ToUpper();
+                //        public void AddAnimal()
+                //        {
+                //            Console.WriteLine($"Its a Cat Or a Dog (C/D)??");
+                //            string type = Console.ReadLine()!.ToUpper();
 
-                    Console.WriteLine($"What is your Animal name??");
-                    string anm = Console.ReadLine()!;
+                //            Console.WriteLine($"What is your Animal name??");
+                //            string anm = Console.ReadLine()!;
 
-                    Console.WriteLine($"How old is that??");
-                    if (!int.TryParse(Console.ReadLine(), out int age))
-                    {
-                        Console.WriteLine("Invalid age entred");
-                        return;
-                    }
-                    else if (type == "C")
-                    {
-                        Console.WriteLine("Cat's FurColor: ");
-                        string fcolor = Console.ReadLine()!;
-                        Cat newcat = new Cat(anm, age, fcolor);
-                        animals.Add(newcat);
-                        Console.WriteLine($"{anm} (Cat) is added Succesfully!!!");
-                    }
-                    else if (type == "D")
-                    {
-                        Console.WriteLine("Dog's Breed: ");
-                        string breed = Console.ReadLine()!;
-                        Dog dog = new Dog(anm, age, breed);
-                        animals.Add(dog);
-                        Console.WriteLine($"{anm} (Dog) is Added Successfully!!!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Invalid animal type. Plaese enter C or D");
-                    }
-                }
+                //            Console.WriteLine($"How old is that??");
+                //            if (!int.TryParse(Console.ReadLine(), out int age))
+                //            {
+                //                Console.WriteLine("Invalid age entred");
+                //                return;
+                //            }
+                //            else if (type == "C")
+                //            {
+                //                Console.WriteLine("Cat's FurColor: ");
+                //                string fcolor = Console.ReadLine()!;
+                //                Cat newcat = new Cat(anm, age, fcolor);
+                //                animals.Add(newcat);
+                //                Console.WriteLine($"{anm} (Cat) is added Succesfully!!!");
+                //            }
+                //            else if (type == "D")
+                //            {
+                //                Console.WriteLine("Dog's Breed: ");
+                //                string breed = Console.ReadLine()!;
+                //                Dog dog = new Dog(anm, age, breed);
+                //                animals.Add(dog);
+                //                Console.WriteLine($"{anm} (Dog) is Added Successfully!!!");
+                //            }
+                //            else
+                //            {
+                //                Console.WriteLine("Invalid animal type. Plaese enter C or D");
+                //            }
+                //        }
 
-                public void FindAnimal()
-                {
-                    Console.WriteLine("Please enter the name of your animal: ");
-                    string nametoadopt = Console.ReadLine()!;
-                    Animal? animaltarget = null;
+                //        public void FindAnimal()
+                //        {
+                //            Console.WriteLine("Please enter the name of your animal: ");
+                //            string nametoadopt = Console.ReadLine()!;
+                //            Animal? animaltarget = null;
 
-                    foreach (var an in animals)
-                    {
-                        if (an.Name.Equals(nametoadopt) && !an.IsAdopted)
-                        {
-                            animaltarget = an;
-                            break;
-                        }
-                    }
+                //            foreach (var an in animals)
+                //            {
+                //                if (an.Name.Equals(nametoadopt) && !an.IsAdopted)
+                //                {
+                //                    animaltarget = an;
+                //                    break;
+                //                }
+                //            }
 
-                    if (animaltarget != null)
-                    {
-                        animaltarget.Adopt();
-                        Console.WriteLine($"\n Success The {animaltarget.Name} has been successfully adopted");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"\n Error" +
-                            $"{animaltarget!.Name} not found or already adopted");
-                    }
-                }
-            }
+                //            if (animaltarget != null)
+                //            {
+                //                animaltarget.Adopt();
+                //                Console.WriteLine($"\n Success The {animaltarget.Name} has been successfully adopted");
+                //            }
+                //            else
+                //            {
+                //                Console.WriteLine($"\n Error" +
+                //                    $"{animaltarget!.Name} not found or already adopted");
+                //            }
+                //        }
+                //    }
 
-        }
+                //}
 
     }
 
