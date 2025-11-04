@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_Training
+namespace C_Training.InterFaces
 {
     public class NormalCustomers : IBaseCustomers
     {

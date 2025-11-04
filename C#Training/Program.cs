@@ -230,66 +230,103 @@
 
 //Practice(Product Manager)
 
-    //using System.Collections.Generic;
-    //using System.Security.Cryptography.X509Certificates;
-    //using static Program;
+//using System.Collections.Generic;
+//using System.Security.Cryptography.X509Certificates;
+//using static Program;
 
-    //public class Program
-    //{
-    //    public static void Main(string[] args)
-    //    {
-    //        string[] ProductName = new string[] { "Keybord", "Mouse", "Laptop" };
-    //        List<Product> Inventory = InitializeInventory(ProductName);
-    //    }
-
-
-    //    public static List<Product> InitializeInventory(string[] Proarray)
-    //    {
-    //        List<Product> invertorylist = new List<Product>();
-    //        foreach (string p in Proarray)
-    //        {
-    //            Product pro = new Product(p, 1200000, 84);
-    //            invertorylist.Add(pro);
-    //        }
-    //        return invertorylist;
-    //    }
+//public class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        string[] ProductName = new string[] { "Keybord", "Mouse", "Laptop" };
+//        List<Product> Inventory = InitializeInventory(ProductName);
+//    }
 
 
-    //    public static void GenerateReport(List<Product> inv)
-    //    {
-    //        double total = 0;
-    //        Console.WriteLine("Details of all products!");
-    //        foreach (Product pro in inv)
-    //        {
-    //            pro.DispalyDetails();
-    //        }
+//    public static List<Product> InitializeInventory(string[] Proarray)
+//    {
+//        List<Product> invertorylist = new List<Product>();
+//        foreach (string p in Proarray)
+//        {
+//            Product pro = new Product(p, 1200000, 84);
+//            invertorylist.Add(pro);
+//        }
+//        return invertorylist;
+//    }
 
-    //        //CalculateTotalprice
-    //        for (int i = 0; i < inv.Count; i++)
-    //        {
-    //            total += inv[1].Price * inv[i].StockQuantity;
-    //        }
-    //        Console.WriteLine("Total Inventory value");
-    //        Console.WriteLine($"{total:N0} Toman");
-    //    }
 
-    //    public class Product
-    //    {
-    //        public Product(string proname, double price, int stackquantity)
-    //        {
-    //            ProName = proname;
-    //            Price = price;
-    //            StockQuantity = stackquantity;
-    //        }
-    //        public string ProName { get; set; }
-    //        public double Price { get; set; }
-    //        public int StockQuantity { get; set; }
+//    public static void GenerateReport(List<Product> inv)
+//    {
+//        double total = 0;
+//        Console.WriteLine("Details of all products!");
+//        foreach (Product pro in inv)
+//        {
+//            pro.DispalyDetails();
+//        }
 
-    //        public void DispalyDetails()
-    //        {
-    //            Console.WriteLine($"{ProName} {Price} {StockQuantity}");
-    //            Console.ReadKey();
-    //        }
-    //    }
-    //}
+//        //CalculateTotalprice
+//        for (int i = 0; i < inv.Count; i++)
+//        {
+//            total += inv[1].Price * inv[i].StockQuantity;
+//        }
+//        Console.WriteLine("Total Inventory value");
+//        Console.WriteLine($"{total:N0} Toman");
+//    }
+
+//    public class Product
+//    {
+//        public Product(string proname, double price, int stackquantity)
+//        {
+//            ProName = proname;
+//            Price = price;
+//            StockQuantity = stackquantity;
+//        }
+//        public string ProName { get; set; }
+//        public double Price { get; set; }
+//        public int StockQuantity { get; set; }
+
+//        public void DispalyDetails()
+//        {
+//            Console.WriteLine($"{ProName} {Price} {StockQuantity}");
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+
+
+
+using C_Training.BankAccountManager;
+using System.Reflection.Metadata;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        List<IBankaccount> bankaccounts = new List<IBankaccount>();
+        SavingAccount account1 = new SavingAccount("2964415872365", 12000000);
+        bankaccounts.Add(account1);
+
+        SavingAccount account2 = new SavingAccount("2964411597365", 45000000);
+        bankaccounts.Add(account2);
+
+        SavingAccount account3 = new SavingAccount("2394415872365", 892000000);
+        bankaccounts.Add(account3);
+
+        SavingAccount account4 = new SavingAccount("2652315872365", 697000000);
+        bankaccounts.Add(account4);
+
+        SavingAccount account5 = new SavingAccount("2964496322365", 3000000);
+        bankaccounts.Add(account5);
+
+        foreach (var bank in bankaccounts)
+        {
+            bank.Deposite(500000);
+            bank.Withraw(200000);
+            BankUtility.PrintTransActionSummary(bank);
+        }
+
+
+    }
+}
 
