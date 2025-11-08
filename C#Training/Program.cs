@@ -299,34 +299,34 @@
 using C_Training.BankAccountManager;
 using System.Reflection.Metadata;
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        List<IBankaccount> bankaccounts = new List<IBankaccount>();
-        SavingAccount account1 = new SavingAccount("2964415872365", 12000000);
-        bankaccounts.Add(account1);
+//public class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        List<IBankaccount> bankaccounts = new List<IBankaccount>();
+//        SavingAccount account1 = new SavingAccount("2964415872365", 12000000);
+//        bankaccounts.Add(account1);
 
-        SavingAccount account2 = new SavingAccount("2964411597365", 45000000);
-        bankaccounts.Add(account2);
+//        SavingAccount account2 = new SavingAccount("2964411597365", 45000000);
+//        bankaccounts.Add(account2);
 
-        SavingAccount account3 = new SavingAccount("2394415872365", 892000000);
-        bankaccounts.Add(account3);
+//        SavingAccount account3 = new SavingAccount("2394415872365", 892000000);
+//        bankaccounts.Add(account3);
 
-        SavingAccount account4 = new SavingAccount("2652315872365", 697000000);
-        bankaccounts.Add(account4);
+//        SavingAccount account4 = new SavingAccount("2652315872365", 697000000);
+//        bankaccounts.Add(account4);
 
-        SavingAccount account5 = new SavingAccount("2964496322365", 3000000);
-        bankaccounts.Add(account5);
+//        SavingAccount account5 = new SavingAccount("2964496322365", 3000000);
+//        bankaccounts.Add(account5);
 
-        foreach (var bank in bankaccounts)
-        {
-            bank.Deposite(500000);
-            bank.Withraw(200000);
-            BankUtility.PrintTransActionSummary(bank);
-        }
+//        foreach (var bank in bankaccounts)
+//        {
+//            bank.Deposite(500000);
+//            bank.Withraw(200000);
+//            BankUtility.PrintTransActionSummary(bank);
+//        }
 
 
-    }
-}
+//    }
+//}
 
