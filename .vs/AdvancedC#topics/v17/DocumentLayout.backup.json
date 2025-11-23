@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C176E589-8FE0-4021-989E-FAB75826AD80}|ProductInventoryManagement\\ProductInventoryManagement.csproj|c:\\users\\m.mahdi\\source\\repos\\advancedc#topics\\productinventorymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C176E589-8FE0-4021-989E-FAB75826AD80}|ProductInventoryManagement\\ProductInventoryManagement.csproj|solutionrelative:productinventorymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC166CD-E71B-47B8-9E8D-C87E51931E32}|AdvancedC#topics\\AdvancedC#topics.csproj|c:\\users\\m.mahdi\\source\\repos\\advancedc#topics\\advancedc#topics\\linq\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC166CD-E71B-47B8-9E8D-C87E51931E32}|AdvancedC#topics\\AdvancedC#topics.csproj|solutionrelative:advancedc#topics\\linq\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C176E589-8FE0-4021-989E-FAB75826AD80}|ProductInventoryManagement\\ProductInventoryManagement.csproj|c:\\users\\m.mahdi\\source\\repos\\advancedc#topics\\productinventorymanagement\\electronic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C176E589-8FE0-4021-989E-FAB75826AD80}|ProductInventoryManagement\\ProductInventoryManagement.csproj|solutionrelative:productinventorymanagement\\electronic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C176E589-8FE0-4021-989E-FAB75826AD80}|ProductInventoryManagement\\ProductInventoryManagement.csproj|c:\\users\\m.mahdi\\source\\repos\\advancedc#topics\\productinventorymanagement\\interface\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C176E589-8FE0-4021-989E-FAB75826AD80}|ProductInventoryManagement\\ProductInventoryManagement.csproj|solutionrelative:productinventorymanagement\\interface\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C176E589-8FE0-4021-989E-FAB75826AD80}|ProductInventoryManagement\\ProductInventoryManagement.csproj|c:\\users\\m.mahdi\\source\\repos\\advancedc#topics\\productinventorymanagement\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C176E589-8FE0-4021-989E-FAB75826AD80}|ProductInventoryManagement\\ProductInventoryManagement.csproj|solutionrelative:productinventorymanagement\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\ProductInventoryManagement\\Program.cs",
+              "RelativeDocumentMoniker": "ProductInventoryManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\ProductInventoryManagement\\Program.cs",
+              "RelativeToolTip": "ProductInventoryManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T18:52:19.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Electronic.cs",
+              "DocumentMoniker": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\ProductInventoryManagement\\Electronic.cs",
+              "RelativeDocumentMoniker": "ProductInventoryManagement\\Electronic.cs",
+              "ToolTip": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\ProductInventoryManagement\\Electronic.cs",
+              "RelativeToolTip": "ProductInventoryManagement\\Electronic.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T18:50:53.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\ProductInventoryManagement\\Book.cs",
+              "RelativeDocumentMoniker": "ProductInventoryManagement\\Book.cs",
+              "ToolTip": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\ProductInventoryManagement\\Book.cs",
+              "RelativeToolTip": "ProductInventoryManagement\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T18:49:13.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProduct.cs",
+              "DocumentMoniker": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\ProductInventoryManagement\\InterFace\\IProduct.cs",
+              "RelativeDocumentMoniker": "ProductInventoryManagement\\InterFace\\IProduct.cs",
+              "ToolTip": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\ProductInventoryManagement\\InterFace\\IProduct.cs",
+              "RelativeToolTip": "ProductInventoryManagement\\InterFace\\IProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T18:47:48.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\AdvancedC#topics\\LINQ\\Products.cs",
+              "RelativeDocumentMoniker": "AdvancedC#topics\\LINQ\\Products.cs",
+              "ToolTip": "C:\\Users\\M.Mahdi\\source\\repos\\AdvancedC#topics\\AdvancedC#topics\\LINQ\\Products.cs",
+              "RelativeToolTip": "AdvancedC#topics\\LINQ\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T18:08:58.489Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedC#topics", "AdvancedC#topics\AdvancedC#topics.csproj", "{0CC166CD-E71B-47B8-9E8D-C87E51931E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductInventoryManagement", "ProductInventoryManagement\ProductInventoryManagement.csproj", "{C176E589-8FE0-4021-989E-FAB75826AD80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CC166CD-E71B-47B8-9E8D-C87E51931E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC166CD-E71B-47B8-9E8D-C87E51931E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC166CD-E71B-47B8-9E8D-C87E51931E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC166CD-E71B-47B8-9E8D-C87E51931E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C176E589-8FE0-4021-989E-FAB75826AD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C176E589-8FE0-4021-989E-FAB75826AD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C176E589-8FE0-4021-989E-FAB75826AD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C176E589-8FE0-4021-989E-FAB75826AD80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14FC62D3-DF91-44A0-BDB8-FEC2F2651FA2}
+	EndGlobalSection
+EndGlobal

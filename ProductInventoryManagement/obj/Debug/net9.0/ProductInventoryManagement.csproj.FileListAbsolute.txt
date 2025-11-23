@@ -1,0 +1,14 @@
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\bin\Debug\net9.0\ProductInventoryManagement.exe
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\bin\Debug\net9.0\ProductInventoryManagement.deps.json
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\bin\Debug\net9.0\ProductInventoryManagement.runtimeconfig.json
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\bin\Debug\net9.0\ProductInventoryManagement.dll
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\bin\Debug\net9.0\ProductInventoryManagement.pdb
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\obj\Debug\net9.0\ProductInventoryManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\obj\Debug\net9.0\ProductInventoryManagement.AssemblyInfoInputs.cache
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\obj\Debug\net9.0\ProductInventoryManagement.AssemblyInfo.cs
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\obj\Debug\net9.0\ProductInventoryManagement.csproj.CoreCompileInputs.cache
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\obj\Debug\net9.0\ProductInventoryManagement.dll
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\obj\Debug\net9.0\refint\ProductInventoryManagement.dll
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\obj\Debug\net9.0\ProductInventoryManagement.pdb
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\obj\Debug\net9.0\ProductInventoryManagement.genruntimeconfig.cache
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\ProductInventoryManagement\obj\Debug\net9.0\ref\ProductInventoryManagement.dll

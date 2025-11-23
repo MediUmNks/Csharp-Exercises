@@ -1,0 +1,4 @@
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\AdvancedC#topics\obj\Debug\net9.0\AdvancedC#topics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\AdvancedC#topics\obj\Debug\net9.0\AdvancedC#topics.AssemblyInfoInputs.cache
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\AdvancedC#topics\obj\Debug\net9.0\AdvancedC#topics.AssemblyInfo.cs
+C:\Users\M.Mahdi\source\repos\AdvancedC#topics\AdvancedC#topics\obj\Debug\net9.0\AdvancedC#topics.csproj.CoreCompileInputs.cache
